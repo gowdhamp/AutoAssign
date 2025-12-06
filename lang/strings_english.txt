@@ -1,0 +1,13 @@
+<?php
+# AutoAssign Plugin
+# Copyright (c) Poorna
+
+$s_plugin_AutoAssign_title = 'AutoAssign';
+$s_plugin_AutoAssign_description = 'Automatically assigns handler to new bugs based on predefined rules.';
+$s_plugin_AutoAssign_config = 'Configuration';
+$s_plugin_AutoAssign_project = 'Project';
+$s_plugin_AutoAssign_reporter = 'Reporter';
+$s_plugin_AutoAssign_developer = 'Developer';
+$s_plugin_AutoAssign_actions = 'Actions';
+$s_plugin_AutoAssign_add = 'Add Rule';
+$s_plugin_AutoAssign_delete = 'Delete';
