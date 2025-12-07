@@ -42,6 +42,10 @@ This plugin allows anyone to use it in their MantisBT installation.
    - Find **AutoAssign** in the list of available plugins.
    - Click **Install**.
 
+<img alt="plugin-install" src="https://github.com/user-attachments/assets/1d73aaa0-6000-4f43-8dc5-b1e56198bbc7" />
+<img alt="plugin-installed" src="https://github.com/user-attachments/assets/97ec4563-44c6-444c-8a8d-ae7e7699468b" />
+
+
 Once installed, the plugin is active and ready to be configured.
 
 ## ⚙️ How to Use
@@ -57,6 +61,11 @@ To define your assignment rules:
    - **Reporter:** Select the user who reports the bugs (e.g., a specific QA member or Client user).
    - **Developer:** Select the developer who should receive these bugs.
    - Click **Add Policy**.
+
+<img alt="add-policy" src="https://github.com/user-attachments/assets/1245319e-543e-4f2f-b5ae-d3c059c46c4e" />
+<img alt="policy-added" src="https://github.com/user-attachments/assets/2ea53bcc-b7e9-4c27-b09f-95e0f35fbf47" />
+
+In this image, all new tickets in **zz-SANDBOX** created by **Reporter 1** will be automatically assigned to **Developer 1**.
 
 ### Management
 - **View Rules:** Existing rules for the selected project are listed on the configuration page.
