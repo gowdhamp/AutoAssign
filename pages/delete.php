@@ -2,9 +2,9 @@
 auth_reauthenticate();
 access_ensure_global_level( config_get( 'manage_plugin_threshold' ) );
 
-$f_id = gpc_get_int( 'id' );
-
 form_security_validate( 'plugin_autoassign_delete' );
+
+$f_id = gpc_get_int( 'id' );
 
 $t_table = plugin_table( 'policy' );
 
