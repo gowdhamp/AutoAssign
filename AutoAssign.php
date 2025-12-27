@@ -72,6 +72,11 @@ class AutoAssignPlugin extends MantisPlugin {
 			if( $t_developer_id != 0 && user_exists( $t_developer_id ) ) {
 				bug_assign( $p_issue_id, $t_developer_id );
 				log_event( LOG_PLUGIN, "AutoAssign: Bug $p_issue_id assigned to user $t_developer_id" );
+
+				# Add audit note
+				$t_developer_name = user_get_name( $t_developer_id );
+				$t_audit_note = sprintf( plugin_lang_get( 'audit_note' ), $t_developer_name );
+				bugnote_add( $p_issue_id, $t_audit_note, '0:00', true );
 			}
 		}
 	}

@@ -11,3 +11,4 @@ $s_plugin_AutoAssign_developer = 'Developer';
 $s_plugin_AutoAssign_actions = 'Actions';
 $s_plugin_AutoAssign_add = 'Add Rule';
 $s_plugin_AutoAssign_delete = 'Delete';
+$s_plugin_AutoAssign_audit_note = 'AutoAssign: Bug assigned to %s based on predefined rules.';
